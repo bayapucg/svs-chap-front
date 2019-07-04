@@ -85,7 +85,7 @@
 						<p>SVS Champion Kids School A buying desire to provide suitable environment to educate and train the kids to take up career and life as a useful citizen of society made me to start the SVS Champion Kids School.</p>
 						<p>Dear Parents, we developed the Character, Leadership, Secular, Outwork spirit of Adventure and ideas of selfless service amongst the children, who entered into the portal of this institution.</p>
 </p>
-                        <a href="#" class="btn  btn-primary btn-rounded">Touch With Us</a>
+                        <a href="contact-us.php" class="btn  btn-primary btn-rounded">Touch With Us</a>
                      </div>
                      <!-- videoRight -->
                   </div>

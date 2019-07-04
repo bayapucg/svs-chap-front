@@ -4,7 +4,7 @@
    <div class="custom_content clearfix">
 			<div class="container">
 
-				<div class="photo_gallery custom">
+				<div class="photo_gallery custom  gallery-cust">
 					<ul class="gallery popup-gallery gallery-3col">
 						<li>
 							<a href="img/campus/1.jpg" title="Photo 1">
