@@ -48,9 +48,9 @@
 							<div class="list_block sidebar_item">
 								<h3>Contacts</h3>
 								<ul class="contact_info">
-									<li><i class="fa fa-home"></i> Plot No. 33 & 34, Opp. Madhavaram Heights, Ramalayam Road, Kukatpally, Hyd-72</li>
-									<li><i class="fa fa-envelope"></i> <a href="mailto:info@example.com">svschampionkids@gmail.com</a></li>
-									<li><i class="fa fa-phone"></i>  6303269136, 8374118444</li>
+									<li><i class="fa fa-home"></i> SVS Champion Kids 3, Rd Number 3, Laxminagar Colony, K P H B Phase 3, Kukatpally, Hyderabad, Telangana 500072</li>
+									<li><i class="fa fa-envelope"></i> <a href="mailto:info@example.com">info@svschampion.com</a></li>
+									<li><i class="fa fa-phone"></i>8099025828, 9398091596</li>
 									<li><i class="fa fa-globe"></i> <a href="#">http://www.bluemoon.com</a></li>
 								</ul>
 							</div>
