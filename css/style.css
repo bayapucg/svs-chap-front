@@ -5993,6 +5993,15 @@ p.reduceMargin {
 		display: block;
 		margin: 15px auto 0
 	}
+	.pos-ab-logo img {
+    position: absolute;
+    background: #fff;
+    border: 3px solid #0060b1;
+    width: 47px !important;
+    height: auto;
+    z-index: 1024;
+    padding: 6px;
+}
 }
 
 .pagination>li {

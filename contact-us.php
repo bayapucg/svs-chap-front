@@ -10,7 +10,7 @@
 						<br>
 						<br>
 							<h3>Contact Form</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.</p>
+							<p>Please fill out our form, and we'll get in touch shortly.</p>
 							<div class="contact_form">
 								<form method="post" action="#">
 									<div class="row">
@@ -51,7 +51,7 @@
 									<li><i class="fa fa-home"></i> SVS Champion Kids 3, Rd Number 3, Laxminagar Colony, K P H B Phase 3, Kukatpally, Hyderabad, Telangana 500072</li>
 									<li><i class="fa fa-envelope"></i> <a href="mailto:info@example.com">info@svschampion.com</a></li>
 									<li><i class="fa fa-phone"></i>8099025828, 9398091596</li>
-									<li><i class="fa fa-globe"></i> <a href="#">http://www.bluemoon.com</a></li>
+									<li><i class="fa fa-globe"></i> <a href="#">www.svschampionkids.com</a></li>
 								</ul>
 							</div>
 							<div class="list_block">
