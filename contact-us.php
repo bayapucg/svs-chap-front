@@ -55,12 +55,38 @@
 								</ul>
 							</div>
 							<div class="list_block">
-								<h3>School  Hours</h3>
-								<ul class="contact_info">
-									<li><strong>Monday-Friday:</strong> 10am to 8pm</li>
-									<li><strong>Saturday:</strong> 11am to 3pm</li>
-									<li><strong>Sunday:</strong> Closed</li>
-								</ul>
+								<h3>School TIMINGS</h3>
+					<table class="table table-bordered">
+						<tr>
+							<th>Monday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+							<tr>
+							<th>Tuesday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+							<tr>
+							<th>Wednesday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+							<tr>
+							<th>Thursday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+						
+							<tr>
+							<th>Friday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+							<tr>
+							<th>Saturday</th>
+							<td> 10AM to 3PM</td>
+						</tr>	
+						<tr>
+						<th>Sunday</th>
+							<td> Closed</td>
+						</tr>
+					</table>
 							</div><!--end sidebar item-->
 							<div class="list_block">
 								<div class="newsletter">
