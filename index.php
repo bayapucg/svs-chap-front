@@ -2,15 +2,14 @@
 <div class="banner carousel slide" id="recommended-item-carousel" data-ride="carousel">
    <div class="slides carousel-inner">
       <div class="item active">
-         <img src="img/home/slider/slider_image_1.jpg" alt="" />
+         <img src="img/banner1.png" alt="banner1" />
          <div class="banner_caption">
             <div class="container">
                <div class="row">
                   <div class="col-xs-12">
                      <div class="caption_inner animated fadeInUp">
                         <h1>Welcome To SVS CHAMPION KIDS SCHOOL</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
-                        <!-- <a href="about.html">Learn More</a>-->
+                        
                      </div>
                      <!--end caption_inner-->
                   </div>
@@ -22,15 +21,14 @@
          <!--end banner_caption-->
       </div>
       <div class="item">
-         <img src="img/home/slider/slider_image_2.jpg" alt="" />
+         <img src="img/banner2.png" alt="banner2" />
          <div class="banner_caption">
             <div class="container">
                <div class="row">
                   <div class="col-xs-12">
                      <div class="caption_inner animated fadeInUp">
                         <h1>Admission going on</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.</p>
-                        <!-- <a href="buying-steps.html">Apply Now</a>-->
+                       
                      </div>
                      <!--end caption_inner-->
                   </div>
@@ -42,15 +40,14 @@
          <!--end banner_caption-->
       </div>
       <div class="item">
-         <img src="img/home/slider/slider_image_3.jpg" alt="" />
+         <img src="img/banner3.png" alt="banner3" />
          <div class="banner_caption">
             <div class="container">
                <div class="row">
                   <div class="col-xs-12">
                      <div class="caption_inner animated fadeInUp">
                         <h1>Arrange a tour to our school</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.</p>
-                        <!-- <a href="contact-us.html">Contact Us</a>-->
+                        
                      </div>
                      <!--end caption_inner-->
                   </div>
@@ -61,32 +58,13 @@
          </div>
          <!--end banner_caption-->
       </div>
-      <div class="item">
-         <img src="img/home/slider/slider_image_4.jpg" alt="" />
-         <div class="banner_caption">
-            <div class="container">
-               <div class="row">
-                  <div class="col-xs-12">
-                     <div class="caption_inner animated fadeInUp">
-                        <h1>Find your dream course</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.</p>
-                        <!-- <a href="course-fullwidth.html">Find Course</a>-->
-                     </div>
-                     <!--end caption_inner-->
-                  </div>
-               </div>
-               <!--end row-->
-            </div>
-            <!--end container-->
-         </div>
-         <!--end banner_caption-->
-      </div>
+      
    </div>
    <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
-   <img src="img/home/slider/prev.png">
+   <img src="img/prev-slid.png">
    </a>
    <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
-   <img src="img/home/slider/next.png">
+   <img src="img/next-slid.png">
    </a>
 </div>
 <!--end banner-->
@@ -99,7 +77,7 @@
                   <h3>Welcome To SVS CHAMPION KIDS SCHOOL</h3>
                   <div class="row">
                      <div class="col-lg-6 col-md-6 col-xs-12 videoLeft">
-                        <img class="img-responsive" src="img/home/video/video_image.jpg" >
+                        <img class="img-responsive" src="img/logo.png" >
                      </div>
                      <!-- videoLeft -->
                      <div class="col-lg-6 col-md-6 col-xs-12 videoRight">
@@ -166,7 +144,7 @@
    <!-- container -->
 </div>
 <!-- mainContent -->
-<div class="count clearfix wow fadeIn paralax" data-wow-delay="100ms" style="background-image: url(img/home/paralax/paralax03.jpg);">
+<div class="count clearfix wow fadeIn paralax" data-wow-delay="100ms" style="background-image: url(img/paralax03.jpg);">
    <div class="container">
       <div class="row">
          <div class="col-xs-6 col-sm-4">
