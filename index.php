@@ -104,7 +104,7 @@
                      <!-- videoLeft -->
                      <div class="col-lg-6 col-md-6 col-xs-12 videoRight">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a href="#" class="btn btn-block learnBtn">Learn More</a>
+                        <a href="#" class="btn  btn-primary ">Learn More</a>
                      </div>
                      <!-- videoRight -->
                   </div>
@@ -119,11 +119,38 @@
             <div class="formTitle">
                <div class="list_block">
                   <h3>School TIMINGS</h3>
-                  <ul class="contact_info">
-                     <li><strong>Monday-Friday:</strong> 10am to 8pm</li>
-                     <li><strong>Saturday:</strong> 11am to 3pm</li>
-                     <li><strong>Sunday:</strong> Closed</li>
-                  </ul>
+					<table class="table table-bordered">
+						<tr>
+							<th>Monday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+							<tr>
+							<th>Tuesday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+							<tr>
+							<th>Wednesday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+							<tr>
+							<th>Thursday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+						
+							<tr>
+							<th>Friday</th>
+							<td> 10AM to 3PM</td>
+						</tr>
+							<tr>
+							<th>Saturday</th>
+							<td> 10AM to 3PM</td>
+						</tr>	
+						<tr>
+						<th>Sunday</th>
+							<td> Closed</td>
+						</tr>
+					</table>
+            
                </div>
             </div>
             <!-- formArea -->

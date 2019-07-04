@@ -4,13 +4,10 @@
  <div class="footer clearfix">
     <div class="container">
       <div class="row clearfix">
-        <div class="col-sm-6 col-xs-12 copyRight">
-          <p>© 2018 Copyright SVS CHAMPION KIDS SCHOOL </p>
+        <div class="col-sm-12 col-xs-12 copyRight text-center">
+          <p>© 2019 Copyright SVS CHAMPION KIDS SCHOOL </p>
         </div><!-- col-sm-6 col-xs-12 -->
-        <div class="col-sm-6 col-xs-12 privacy_policy">
-          <a href="contact-us.php">Contact us</a>
-          <a href="#">Privacy Policy</a>
-        </div><!-- col-sm-6 col-xs-12 -->
+       
       </div><!-- row clearfix -->
     </div><!-- container -->
   </div><!-- footer -->

@@ -92,11 +92,7 @@
                         <a href="index.php" >Home</a>
                        
                       </li> 
-					   
-					  <li class=" ">
-                        <a href="#" >Admissions</a>
-                       
-                      </li> 
+					
 					  <li class=" ">
                         <a href="gallery.php" >Gallery</a>
                        
