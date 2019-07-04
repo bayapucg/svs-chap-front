@@ -40,9 +40,9 @@
         <div class="container">
           <ul class="topbar-left">
             <li class="phoneNo">SVS CHAMPION KIDS SCHOOL</li>
-            <li class="phoneNo"><i class="fa fa-phone"></i>6303269136, 8374118444</li>
+            <li class="phoneNo"><i class="fa fa-phone"></i>8099025828, 9398091596</li>
             <li class="email-id hidden-xs hidden-sm"><i class="fa fa-envelope"></i>
-              <a href="#">svschampionkids@gmail.com</a>
+              <a href="#">  info@svschampion.com</a>
             </li>
           </ul>
           <ul class="topbar-right">
