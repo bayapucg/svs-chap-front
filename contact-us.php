@@ -88,17 +88,6 @@
 						</tr>
 					</table>
 							</div><!--end sidebar item-->
-							<div class="list_block">
-								<div class="newsletter">
-									<h3>Newsletter</h3>
-									<form method="post" action="#">
-										<div class="form-group">
-										  <input type="text" placeholder="Email" id="exampleInputEmail1" class="form-control">
-										</div>
-										<button class="btn btn-default btn-block commonBtn" type="submit">Subscribe</button>
-									</form>
-								</div>
-							</div>
 						</div><!--end sidebar-->
 					</div>
 				</div><!--end row-->
@@ -106,8 +95,7 @@
 		</div><!--end custom content-->
 
 		<div class="contact_map">
-
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.532967006939!2d78.13606131483513!3d14.163532990082015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb3cf9213d6b6a5%3A0xd740a4e89ed571cb!2sBLUE+MOON+GROUP+OF+INSTITUTIONS!5e0!3m2!1sen!2sin!4v1530704862222" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		 <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2397.213973330053!2d78.41462528140096!3d17.49127416814817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91b85b341ec3%3A0xc63dfa1b1c786eb0!2sSVS+Champion+Kids!5e0!3m2!1sen!2sin!4v1562153077208!5m2!1sen!2sin" width="100%" height="450" style="border:4px solid #ddd" allowfullscreen></iframe>
 		</div><!--end contact map-->
 
 <?php include('footer.php'); ?>
