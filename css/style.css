@@ -8786,3 +8786,8 @@ ul.contact_info li a:hover {
 .btn-rounded{
 	border-radius:50px;
 }
+.gallery-cust li{
+	height:220px;
+	overflow:hidden;
+	
+}
