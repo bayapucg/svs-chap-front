@@ -15,9 +15,9 @@
 
 
 <!-- JQUERY SCRIPTS -->
-<script src="plugins/jquery/jquery-1.11.1.min.js"></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="plugins/flexslider/jquery.flexslider.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
 <script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 <script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>

@@ -9,8 +9,6 @@
   <title>SVS CHAMPION KIDS SCHOOL</title>
     <link rel="icon" href="img/logo.gif" >
 
-  <!-- PLUGINS CSS STYLE -->
-  <!--<link rel="icon" type="image/png" href="img/favicon.png">-->
   <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="plugins/selectbox/select_option1.css">
   <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
