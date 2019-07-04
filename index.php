@@ -103,8 +103,11 @@
                      </div>
                      <!-- videoLeft -->
                      <div class="col-lg-6 col-md-6 col-xs-12 videoRight">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a href="#" class="btn  btn-primary ">Learn More</a>
+                        <p>SVS Champion Kids School approach place trust and focus on the child rather than the marks attained by a student. The school is not just a behave of activity nor a centre of more formal learning but a living and organic Community.
+						<p>SVS Champion Kids School A buying desire to provide suitable environment to educate and train the kids to take up career and life as a useful citizen of society made me to start the SVS Champion Kids School.</p>
+						<p>Dear Parents, we developed the Character, Leadership, Secular, Outwork spirit of Adventure and ideas of selfless service amongst the children, who entered into the portal of this institution.</p>
+</p>
+                        <a href="#" class="btn  btn-primary btn-rounded">Touch With Us</a>
                      </div>
                      <!-- videoRight -->
                   </div>

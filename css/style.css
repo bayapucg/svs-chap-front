@@ -8774,3 +8774,6 @@ ul.contact_info li a:hover {
 .rowspacing {
 	padding: 20px 0px;
 }
+.btn-rounded{
+	border-radius:50px;
+}
