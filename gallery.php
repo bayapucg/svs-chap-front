@@ -107,6 +107,16 @@
 				<div class="photo_gallery custom  gallery-cust">
 					<ul class="gallery popup-gallery gallery-3col">
 						<li>
+							<a href="img/campus/image0.png" title="Photo 0">
+								<img src="img/campus/image0.png" alt=""/>
+								<div class="overlay">
+									<span class="zoom">
+										<i class="fa fa-search"></i>
+									</span>
+								</div>
+							</a>
+						</li>	
+						<li>
 							<a href="img/campus/image1.png" title="Photo 1">
 								<img src="img/campus/image1.png" alt=""/>
 								<div class="overlay">
