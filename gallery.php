@@ -7,8 +7,8 @@
 				<div class="photo_gallery custom  gallery-cust">
 					<ul class="gallery popup-gallery gallery-3col">
 						<li>
-							<a href="img/campus/1.jpg" title="Photo 1">
-								<img src="img/campus/1.jpg" alt=""/>
+							<a href="img/campus/image1.png" title="Photo 1">
+								<img src="img/campus/image1.png" alt=""/>
 								<div class="overlay">
 									<span class="zoom">
 										<i class="fa fa-search"></i>
@@ -17,8 +17,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="img/campus/2.jpg" title="Photo 2">
-								<img src="img/campus/2.jpg" alt=""/>
+							<a href="img/campus/image2.png" title="Photo 2">
+								<img src="img/campus/image2.png" alt=""/>
 								<div class="overlay">
 									<span class="zoom">
 										<i class="fa fa-search"></i>
@@ -27,8 +27,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="img/campus/3.jpg" title="Photo 3">
-								<img src="img/campus/3.jpg" alt=""/>
+							<a href="img/campus/image3.png" title="Photo 3">
+								<img src="img/campus/image3.png" alt=""/>
 								<div class="overlay">
 									<span class="zoom">
 										<i class="fa fa-search"></i>
