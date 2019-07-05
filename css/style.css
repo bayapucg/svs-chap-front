@@ -546,7 +546,7 @@ li.language.dropdown>a:focus {
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 10999
+	z-index: 1024
 }
 
 .static .bb-fixed-header {
@@ -8791,3 +8791,4 @@ ul.contact_info li a:hover {
 	overflow:hidden;
 	
 }
+

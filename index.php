@@ -81,10 +81,9 @@
                      </div>
                      <!-- videoLeft -->
                      <div class="col-lg-6 col-md-6 col-xs-12 videoRight">
-                        <p>SVS Champion Kids School approach place trust and focus on the child rather than the marks attained by a student. The school is not just a behave of activity nor a centre of more formal learning but a living and organic Community.
+                        <p>SVS Champion Kids School approach place trust and focus on the child rather than the marks attained by a student. The school is not just a behave of activity nor a centre of more formal learning but a living and organic Community.</p>
 						<p>SVS Champion Kids School A buying desire to provide suitable environment to educate and train the kids to take up career and life as a useful citizen of society made me to start the SVS Champion Kids School.</p>
 						<p>Dear Parents, we developed the Character, Leadership, Secular, Outwork spirit of Adventure and ideas of selfless service amongst the children, who entered into the portal of this institution.</p>
-</p>
                         <a href="contact-us.php" class="btn  btn-primary btn-rounded">Touch With Us</a>
                      </div>
                      <!-- videoRight -->
@@ -151,7 +150,7 @@
             <div class="text-center">
                <div class="icon"><i class="fa fa-group"></i></div>
                <div class="counter">
-                  <span class="timer">8298</span>
+                  <span class="timer">200</span>
                </div>
                <div class="seperator-small"></div>
                <p>Students</p>
@@ -160,9 +159,9 @@
          <!-- col-sm-3 -->
          <div class="col-xs-6 col-sm-4">
             <div class="text-center">
-               <div class="icon"><i class="fa fa-book"></i></div>
+               <div class="icon"><i class="fa fa-male"></i></div>
                <div class="counter">
-                  <span class="timer">142</span>
+                  <span class="timer">20</span>
                </div>
                <div class="seperator-small"></div>
                <p>Teachers</p>
@@ -171,9 +170,9 @@
          <!-- col-sm-3 -->
          <div class="col-xs-6 col-sm-4">
             <div class="text-center">
-               <div class="icon"><i class="fa fa-male"></i></div>
+               <div class="icon"><i class="fa fa-map-marker"></i></div>
                <div class="counter">
-                  <span class="timer">10</span>
+                  <span class="timer">2</span>
                </div>
                <div class="seperator-small"></div>
                <p>Branches</p>

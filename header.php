@@ -47,18 +47,6 @@
             <li class="hidden-xs"><a href="#"><i class="fa fa-google-plus"></i></a></li>
             <li class="hidden-xs"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
             <li class="hidden-xs"><a href="#"><i class="fa fa-rss"></i></a></li>
-            <li class="top-search list-inline">
-              <a href="#"><i class="fa fa-search"></i></a>
-              <ul class="dropdown-menu dropdown-menu-right">
-                <li>
-                  <span class="input-group">
-                    <input type="text" class="form-control" placeholder="Course Name">
-                    <button type="submit" class="btn btn-default commonBtn">Search</button>
-                  </span>
-                </li>
-              </ul>
-            </li>
-            
           </ul>
         </div>
       </div>
@@ -94,7 +82,7 @@
                        
                       </li> 
 					  <li class=" ">
-                        <a href="#" >Careers</a>
+                        <a href="careers.php" >Careers</a>
                        
                       </li> 
 					  <li class=" ">
