@@ -9,15 +9,13 @@
   <title>SVS CHAMPION KIDS SCHOOL</title>
     <link rel="icon" href="img/logo.gif" >
 
-  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="plugins/selectbox/select_option1.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="plugins/flexslider/flexslider.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="plugins/calender/fullcalendar.min.css">
-  <link rel="stylesheet" href="plugins/animate.css">
-  <link rel="stylesheet" href="plugins/pop-up/magnific-popup.css">
-  <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/css/settings.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="plugins/owl-carousel/owl.carousel.css" media="screen">
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/fullcalendar.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" media="screen">
 
   <!-- GOOGLE FONT -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic,400italic,700' rel='stylesheet' type='text/css'>

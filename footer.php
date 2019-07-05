@@ -18,18 +18,18 @@
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
-<script src="plugins/pop-up/jquery.magnific-popup.js"></script>
-<script src="plugins/animation/waypoints.min.js"></script>
-<script src="plugins/count-up/jquery.counterup.js"></script>
-<script src="plugins/animation/wow.min.js"></script>
-<script src="plugins/animation/moment.min.js"></script>
-<script src="plugins/calender/fullcalendar.min.js"></script>
-<script src="plugins/owl-carousel/owl.carousel.js"></script>
-<script src="plugins/timer/jquery.syotimer.js"></script>
-<script src="plugins/smoothscroll/SmoothScroll.js"></script>
+<script src="js/jquery.themepunch.tools.min.js"></script>
+<script src="js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/jquery.selectbox-0.1.3.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/fullcalendar.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.syotimer.js"></script>
+<script src="js/SmoothScroll.js"></script>
 <script src="js/custom.js"></script>
 
 
