@@ -52,6 +52,7 @@
 
 		</div>
 </div>
+<div class="clearfix">&nbsp;</div>
   <?php include('footer.php'); ?>
 
 
