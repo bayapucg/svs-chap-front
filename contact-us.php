@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">	
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
   <meta charset="utf-8">
@@ -27,6 +27,43 @@
   <link rel="stylesheet" href="css/default.css" id="option_color">
 
 </head>
+<?php 
+if(isset($_POST['submit']) && $_POST['submit']=!''){ 
+    //echo'<pre>';print_r($_POST);exit;
+		$servername="localhost";
+		$username="root";
+		$password="";
+		$dbname="school";
+		//create connection
+		$conn=new mysqli($servername, $username,$password,$dbname);
+		//check connection
+		if($conn->connect_error){
+		die("connection failed:" .$conn->connect_error);	
+		}
+		
+       $sql="INSERT INTO contactus(name,email,message,created_at)
+VALUES('".$_POST['name']."','".$_POST['email']."','".$_POST['message']."','".date('Y-m-d H:i:s')."')";
+			if($conn->query($sql)===true){
+        $to = "svschampionkids@gmail.com";
+        $subject = "Contact Request";
+        $messages = 'Name:'.$_POST['name'].'<br> Email:'.$_POST['email'].'<br>  Message :'.$_POST['message'].'<br> Date:'.date('Y-m-d H:i:s');
+		$headers = "From:'".$_POST['email']."' \r\n";
+         $headers .= "MIME-Version: 1.0\r\n";
+         $headers .= "Content-type: text/html\r\n";
+			if(mail($to, $subject, $messages, $headers)){
+			echo 'Your Message has been successfully sent.';
+			header("Location:contact-us.php?success=1");
+			} else{
+			echo 'Technical problem will be occured. please try again.';	
+			header("Location:contact-us.php?error=2");
+			}
+		}
+		
+
+}
+?>
+ 
+        
 <body class="body-wrapper">
 
   <div class="main_wrapper">
@@ -101,7 +138,7 @@
       </div>
     </header>
 
-
+     
    <div class="custom_content custom">
 			<div class="container large">
 				<div class="row">
@@ -110,15 +147,28 @@
 						<br>
 						<br>
 						<br>
+						 <?php
+				 
+						 
+						 
+	   if(isset($_GET['success']) && $_GET['success']==1){ ?>
+ 	   <div class="alert alert-success">
+        Your Message has been successfully sent.
+        </div>
+	   <?php }else if(isset($_GET['error']) && $_GET['error']==2){ ?>
+	   <div class="alert alert-danger">
+        Technical problem will be occured. please try again.
+         </div>
+	   <?php } ?>
 							<h3>Contact Form</h3>
 							<p>Please fill out our form, and we'll get in touch shortly.</p>
 							<div class="contact_form">
-								<form method="post" action="#">
+								<form method="post" action="" >
 									<div class="row">
 										<div class="col-xs-12 col-sm-7">
 											<div class="form-group">
 												<label>Name <span class="error">*</span></label>
-												<input type="text" class="form-control" name="name">
+												<input type="text" class="form-control" name="name" required>
 											</div>
 										</div>
 									</div><!--end row-->
@@ -126,7 +176,7 @@
 										<div class="col-xs-12 col-sm-7">
 											<div class="form-group">
 												<label>Email <span class="error">*</span></label>
-												<input type="text" class="form-control" name="email">
+												<input type="email" class="form-control" name="email" required>
 											</div>
 										</div>
 									</div><!--end row-->
@@ -134,12 +184,12 @@
 										<div class="col-xs-12 col-sm-11">
 											<div class="form-group">
 												<label>Message <span class="error">*</span></label>
-												<textarea class="form-control" cols="10" rows="9"></textarea>
+												<textarea  name="message" class="form-control" cols="10" rows="9" required></textarea>
 											</div>
 										</div>
 									</div>
 									<!--end row-->
-									<input type="submit" value="Send Message" class="commonBtn" >
+									<input type="submit" value="submit" name="submit" class="commonBtn" >
 								</form>
 							</div>
 						</div><!--end single content left-->
