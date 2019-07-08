@@ -138,7 +138,7 @@
 							<li>Class : 2nd</li>
 						</ul>
 						<ul>
-							<li>Experience : 1 year</li>
+							<li>Experience : 15 years</li>
 						</ul> <a class="btn apply-now" href="contact-us.php">Contact Us</a> 
 					</div>
 				</div>
@@ -152,7 +152,7 @@
 							<li>Class : 4th</li>
 						</ul>
 						<ul>
-							<li>Experience : 3 years</li>
+							<li>Experience : 8 years</li>
 						</ul> <a class="btn apply-now" href="contact-us.php">Contact Us</a> 
 					</div>
 				</div>
