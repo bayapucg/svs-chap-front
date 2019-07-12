@@ -103,6 +103,25 @@
 <div class="banner carousel slide" id="recommended-item-carousel" data-ride="carousel">
    <div class="slides carousel-inner">
       <div class="item active">
+         <img src="img/banner0.png" alt="banner1" />
+         <div class="banner_caption">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <div class="caption_inner animated fadeInUp">
+                        <h1>Welcome To SVS CHAMPION KIDS SCHOOL</h1>
+                        
+                     </div>
+                     <!--end caption_inner-->
+                  </div>
+               </div>
+               <!--end row-->
+            </div>
+            <!--end container-->
+         </div>
+         <!--end banner_caption-->
+      </div>
+	  <div class="item ">
          <img src="img/banner1.png" alt="banner1" />
          <div class="banner_caption">
             <div class="container">
