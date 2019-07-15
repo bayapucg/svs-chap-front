@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'Home';
-$route['admin/login'] = 'Adminlogin';
+$route['admin'] = 'Adminlogin';
 $route['admin/slider-list'] = 'Addslider';
 //$route['admin/delete-slider/([a-zA-Z0-9-]+)'] = 'Addslider/delete/$1';
 $route['admin/status/([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)'] = 'Addslider/status/$1/$2';

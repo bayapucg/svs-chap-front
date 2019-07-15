@@ -131,7 +131,7 @@ class Addslider extends CI_Controller
 				);
 				$result = $this->My_model->update_record($id,$ImgData);
 				if($result){
-					$this->session->set_flashdata('msg_succ', ' Profile has been updated successfully.');
+					$this->session->set_flashdata('msg_succ', ' Slider has been updated successfully.');
 					redirect('admin/slider-list');
 				}else{
 					$data['msg'] = "Some error occured. Please try again later";

@@ -23,7 +23,7 @@
                                             <input id="name" type="text" class="form-control" value="<?php echo $custm_data['banner_title'];?>" name="slide_test" required>
                                         </div>
                                         <div class="form-group">
-                                            <label> Upload Banner</label>
+                                            <label> Upload Banner <span style="color:red">(1600px width and  height 575px)</span></label>
                                             <input id="image" type="file" class="form-control" value="<?php echo $custm_data['banner'];?>" name="image" >
                                         	<img src ="<?php echo base_url();?>images/banners/<?php echo $custm_data['banner'];?>" height="50" width="50">
 

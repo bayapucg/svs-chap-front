@@ -23,7 +23,7 @@
 
                         <div class="card card-primary">
 						<?php if($this->session->flashdata('msg_succ') != ''){?>  
-               <div class="alert alert-info alert-dismissable">
+               <div class="alert alert-success alert-dismissable">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 <?php echo $this->session->flashdata('msg_succ')?$this->session->flashdata('msg_succ'):'';?>
                 </div>

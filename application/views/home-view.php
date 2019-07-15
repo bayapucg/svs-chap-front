@@ -22,9 +22,6 @@
          <!--end banner_caption-->
       </div>
 	<?php $i++; } ?>
-     
-	 
-    
       
    </div>
    <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
@@ -165,7 +162,7 @@
             <h3>Contact Form</h3>
             <div class="contact_form">
 			    <?php if($this->session->flashdata('msg_succ') != ''){?>  
-                    <div class="alert alert-info alert-dismissable">
+                    <div class="alert alert-success alert-dismissable">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 <?php echo $this->session->flashdata('msg_succ')?$this->session->flashdata('msg_succ'):'';?>
                     </div>
