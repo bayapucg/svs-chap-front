@@ -24,7 +24,7 @@
                                             <input id="name" type="text" class="form-control" name="slide_test" required>
                                         </div>
                                         <div class="form-group">
-                                            <label> Upload Banner</label>
+                                            <label> Upload Banner <span style="color:red">(1600px width and  height 575px)</span></label>
                                             <input id="image" type="file" class="form-control" name="image" required>
                                         </div>
                                         <button type="submit" name="submit" value="submit" class="btn btn-primary">

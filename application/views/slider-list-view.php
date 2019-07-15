@@ -47,7 +47,7 @@
                                             <td><?php echo $row['banner_title'];?></td>
                                             <td><img style="width:60px;" src="<?php echo base_url();?>images/banners/<?php echo $row['banner']; ?>"></td>
                                             <td>
-											<div><a  onclick="return confirm('Are you sure want to Chanage the Status?');" href="<?php echo base_url();?>admin/status/<?php echo $row['id']?>/<?php echo $row['status'];?>" ><span <?php if($row['status']== 1){ echo " class='badge badge-success'"; } elseif($row['status']== 0){ echo "class='label label-danger'"; } ?>><?php if($row['status']== 1){ echo "Active"; } elseif($row['status']== 0){ echo "Deactive"; } ?></span></a></div>
+											<div><a  onclick="return confirm('Are you sure want to Chanage the Status?');" href="<?php echo base_url();?>admin/status/<?php echo $row['id']?>/<?php echo $row['status'];?>" ><span <?php if($row['status']== 1){ echo " class='badge badge-success'"; } elseif($row['status']== 0){ echo "class='badge badge-danger'"; } ?>><?php if($row['status']== 1){ echo "Active"; } elseif($row['status']== 0){ echo "Deactive"; } ?></span></a></div>
 
                                                 <!--<div class="badge badge-success">Active</div>-->
                                             </td>

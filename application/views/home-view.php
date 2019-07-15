@@ -61,6 +61,7 @@
             </div>
             <!--videoNine-->
          </div>
+         </div>
          <!-- col-sm-8 col-xs-12 -->
          <div class="col-sm-4 col-xs-12">
             <div class="formTitle">
