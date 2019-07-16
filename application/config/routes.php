@@ -63,7 +63,7 @@ $route['admin/logout'] = 'Adminlogout';
 $route['admin/gallery-list'] = 'Gallery';
 $route['admin/add-gallery'] = 'Gallery/addgallery';
 $route['admin/delete-gallery/([a-zA-Z0-9-]+)'] = 'Gallery/delete/$1';
-$route['gellery'] = 'Galleryhome';
+$route['gallery'] = 'Galleryhome';
 $route['careers'] = 'Careershome';
 $route['contact-us'] = 'Contactus';
 

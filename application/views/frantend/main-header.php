@@ -73,12 +73,12 @@
                   <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="nav navbar-nav navbar-right">
                       <li class="active ">
-                        <a href="index.php" >Home</a>
+                        <a href="<?php echo base_url();?>home" >Home</a>
                        
                       </li> 
 					
 					  <li class=" ">
-                        <a href="<?php echo base_url();?>gellery" >Gallery</a>
+                        <a href="<?php echo base_url();?>gallery" >Gallery</a>
                        
                       </li> 
 					  <li class=" ">

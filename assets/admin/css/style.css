@@ -2161,6 +2161,18 @@ table tr:hover .table-links {
 	.weather .weather-desc {
 		margin-left: 0;
 	}
+
+        .customModal .close {
+	   float: right;
+	   font-size: 40px;
+	   font-weight: 400;
+	   line-height: 1;
+	   color: #000;
+	   text-shadow: none;
+	   filter: alpha(opacity=100);
+	   opacity: 1;
+	   margin-top: -29px
+        }
 	
 	.statistic-details {
 		-ms-flex-wrap: wrap;
