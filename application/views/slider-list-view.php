@@ -40,10 +40,10 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-									<?php foreach($record as $key => $row){ 
+									<?php $i=1; foreach($record as $key => $row){ 
                                     ?>
                                         <tr>
-                                            <td>1</td>
+                                            <td><?php echo $i;?></td>
                                             <td><?php echo $row['banner_title'];?></td>
                                             <td><img style="width:60px;" src="<?php echo base_url();?>images/banners/<?php echo $row['banner']; ?>"></td>
                                             <td>
@@ -59,7 +59,7 @@
                                             </td>
                                         </tr>
 										
-									<?php } ?>
+									<?php $i++; } ?>
 										
                                         
                                     </tbody>

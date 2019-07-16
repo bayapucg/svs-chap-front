@@ -39,10 +39,10 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-									<?php foreach($record as $key => $row){ 
+									<?php $i=1; foreach($record as $key => $row){ 
                                     ?>
                                         <tr>
-                                            <td>1</td>
+                                            <td><?php echo $i;?></td>
                                          
                                             <td><img style="width:60px;" src="<?php echo base_url();?>images/banners/<?php echo $row['gallery']; ?>"></td>
                                           
@@ -51,7 +51,7 @@
                                                 <a onclick="return confirm('Are you sure you want to Remove?');" href="<?php echo base_url();?>admin/delete-gallery/<?php echo $row['id'];?>" class="btn btn-danger btn-action" data-toggle="tooltip" data-original-title="Delete"><i class="ion ion-trash-b"></i></a>
                                             </td>
                                         </tr>
-									<?php }?>
+									<?php $i++; }?>
                                         
                                     </tbody>
                                 </table>

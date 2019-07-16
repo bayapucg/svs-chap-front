@@ -19,6 +19,7 @@ class Common_module extends CI_Model {
 		$this->db->from($this->tbl_banners);
 		$this->db->order_by('id','desc');
 		$this->db->where("delete","N");
+		$this->db->where("status",1);
 		$query = $this->db->get();
 		$result = $query->result_array();
 		return $result;

@@ -16,7 +16,7 @@
 							<p>Please fill out our form, and we'll get in touch shortly.</p>
 							<div class="contact_form">
 			<?php if($this->session->flashdata('msg_succ') != ''){?>  
-               <div class="alert alert-info alert-dismissable">
+               <div class="alert alert-success alert-dismissable">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 <?php echo $this->session->flashdata('msg_succ')?$this->session->flashdata('msg_succ'):'';?>
                 </div>
@@ -34,7 +34,8 @@
 										<div class="col-xs-12 col-sm-7">
 											<div class="form-group">
 												<label>Name <span class="error">*</span></label>
-												<input type="text" class="form-control" value="<?php echo $this->input->post('name');?>" name="name" required>
+												<input type="text" class="form-control" value="<?php echo $this->input->post('name');?>" name="name">
+											<span><?php echo form_error('name'); ?></span>
 											</div>
 										</div>
 									</div><!--end row-->
@@ -42,7 +43,8 @@
 										<div class="col-xs-12 col-sm-7">
 											<div class="form-group">
 												<label>Email <span class="error">*</span></label>
-												<input type="email" class="form-control" name="email" required>
+												<input type="email" value="<?php echo $this->input->post('email');?>" class="form-control" name="email" >
+												<span><?php echo form_error('email'); ?></span>
 											</div>
 										</div>
 									</div><!--end row-->
@@ -50,7 +52,8 @@
 										<div class="col-xs-12 col-sm-11">
 											<div class="form-group">
 												<label>Message <span class="error">*</span></label>
-												<textarea  name="message" class="form-control" cols="10" rows="9" required></textarea>
+												<textarea  name="message" value="<?php echo $this->input->post('message');?>" class="form-control" cols="10" rows="9" ></textarea>
+												<span><?php echo form_error('message'); ?></span>
 											</div>
 										</div>
 									</div>

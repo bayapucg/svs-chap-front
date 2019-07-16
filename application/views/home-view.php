@@ -48,7 +48,7 @@
                         <p>SVS Champion Kids School approach place trust and focus on the child rather than the marks attained by a student. The school is not just a behave of activity nor a centre of more formal learning but a living and organic Community.</p>
 						<p>SVS Champion Kids School A buying desire to provide suitable environment to educate and train the kids to take up career and life as a useful citizen of society made me to start the SVS Champion Kids School.</p>
 						<p>Dear Parents, we developed the Character, Leadership, Secular, Outwork spirit of Adventure and ideas of selfless service amongst the children, who entered into the portal of this institution.</p>
-                        <a href="<?php echo base_url();?>contact-us" class="btn  btn-primary btn-rounded">Touch With Us</a>
+                        <a href="<?php echo base_url();?>contact-us" class="btn  btn-primary btn-rounded">Get In Touch</a>
                      </div>
                      <!-- videoRight -->
                   </div>
@@ -152,7 +152,7 @@
    <!-- container -->
 </div>
 <!-- count -->
-<div class="container">
+<div class="container" id="test">
    <div class="row">
       <div class="col-xs-12 col-sm-8 custom_right">
          <div class="single_content_left">
@@ -160,7 +160,7 @@
             <br>
             <br>
             <h3>Contact Form</h3>
-            <div class="contact_form">
+            <div class="contact_form" >
 			    <?php if($this->session->flashdata('msg_succ') != ''){?>  
                     <div class="alert alert-success alert-dismissable">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -174,12 +174,13 @@
                     </div>
                 <?php } ?>
 			
-               <form method="post">
+               <form method="post" >
                   <div class="row">
                      <div class="col-xs-12 col-sm-7">
                         <div class="form-group">
                            <label>Name <span class="error">*</span></label>
-                           <input type="text" class="form-control" name="name">
+                           <input type="text" value="<?php echo $this->input->post('name');?>" class="form-control"  name="name">
+						   <span><?php echo form_error('name'); ?></span>
                         </div>
                      </div>
                   </div>
@@ -188,7 +189,8 @@
                      <div class="col-xs-12 col-sm-7">
                         <div class="form-group">
                            <label>Email <span class="error">*</span></label>
-                           <input type="text" class="form-control" name="email">
+                           <input type="text" value="<?php echo $this->input->post('email');?>" class="form-control" name="email">
+						   <span><?php echo form_error('email'); ?></span>
                         </div>
                      </div>
                   </div>
@@ -197,12 +199,13 @@
                      <div class="col-xs-12 col-sm-11">
                         <div class="form-group">
                            <label>Message <span class="error">*</span></label>
-                           <textarea class="form-control" name="text" cols="10" rows="9"></textarea>
+                           <textarea class="form-control" value="<?php echo $this->input->post('message');?>" name="message" cols="10" rows="9"></textarea>
+						   <span><?php echo form_error('message'); ?></span>
                         </div>
                      </div>
                   </div>
                   <!--end row-->
-                  <input type="submit" name="submit" value="Send Message" class="commonBtn">
+                  <input type="submit" name="submit" id="something" value="Send Message" class="commonBtn">
                </form>
             </div>
          </div>
@@ -229,6 +232,12 @@
       </div>
    </div>
 </div>
+ <script>
+ $('#something').click(function() {
+  $('#test').focus();
+});
+</script>
 <div class="clearfix">
-&nbsp;</div
+&nbsp;</div>
 <?php //include('footer.php'); ?>
+
