@@ -11,7 +11,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4>Add Images <span ><a style="position:absolute;right:10px;" href="gallery-list.php" class="btn btn-primary btn-sm ">Gallery List</a></span></h4>
+                            <h4>Add Images <span ><a style="position:absolute;right:10px;" href="<?php echo base_url('admin/gallery-list'); ?>" class="btn btn-primary btn-sm ">Gallery List</a></span></h4>
                         </div>
                         <div class="card-body">
                             <div class="row mx-auto">
