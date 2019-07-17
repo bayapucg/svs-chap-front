@@ -4,8 +4,11 @@
  <div class="footer clearfix">
     <div class="container">
       <div class="row clearfix">
-        <div class="col-sm-12 col-xs-12 copyRight text-center">
-          <p>© 2019 Copyright SVS CHAMPION KIDS SCHOOL </p>
+			<div class="col-sm-12 col-xs-12 copyRight text-center">
+			  <p>@ 2019 Pracha Technologies Pvt Ltd.  <span>
+      
+        Designed by <span ><a href="http://prachatech.com/" style="color:orange" target = _blank> Pracha Technologies Pvt Ltd.</a></span></span>
+      </div></p>
         </div><!-- col-sm-6 col-xs-12 -->
        
       </div><!-- row clearfix -->

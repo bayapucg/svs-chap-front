@@ -1,7 +1,7 @@
 
 
    <div class="custom_content clearfix">
-			<div class="container">
+			<div class="container" style="min-height:450px;">
 
 				<div class="photo_gallery custom  gallery-cust">
 					<ul class="gallery popup-gallery gallery-3col">
